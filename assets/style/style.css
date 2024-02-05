@@ -6,12 +6,12 @@
 
 body{
     font-family: "Lato", sans-serif;
-    /*background: linear-gradient(
-    to top,
-    #d9dbd6 0%,
-    #d9dbd6 50%,
-    #009788 50%,
-    #009788 100%);*/
+    background: linear-gradient(
+    to bottom,
+    #009688 0%,
+    #009688 15%,
+    #d9dbd6 15%,
+    #d9dbd6 100%);
     background-color: azure;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
@@ -74,11 +74,18 @@ body{
 }
 
 i {
-
+    text-align: center;
 }
 
 button{
   text-align: center;
+}
+.underlined{
+    text-decoration: underline;
+}
+
+.gray-text{
+    color: #b1b1b1;
 }
 
 /*INTERACTIVE SCREEN DEFINITION*/
@@ -115,6 +122,18 @@ button{
 .desktop-notifies{
     height: 80px;
     background-color: #8ddafc;
+    align-items: center;
+}
+
+#mute-notifies{
+    color: #8ddafc;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    align-self: center;
+    font-size: x-large;
 }
 
 .pro-pic img{
