@@ -4,12 +4,37 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Lato", sans-serif;
+    /*background: linear-gradient(
+    to top,
+    #d9dbd6 0%,
+    #d9dbd6 50%,
+    #009788 50%,
+    #009788 100%);*/
+    background-color: azure;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
 .container{
     max-width: 100%;
 }
 
-body{
-    font-family: "Lato", sans-serif;
+#boolzapp-container{
+    width: calc(100%/1.25);
+    height: 95vh;
+    background-color: white;
+}
+
+#boolzapp-container .container:first-child{
+    width: 30%;
+    height: 100%;
+}
+
+#boolzapp-container .container:last-child{
+    width: 70%;
+    height: 100%;
 }
 
 .debug{
@@ -50,7 +75,7 @@ body{
 
 .row{
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .col{
@@ -70,6 +95,23 @@ button{
   text-align: center;
 }
 
+.user-info{
+    height: 70px;
+}
+
+.user-info i{
+    color: #b1b1b1;
+}
+
+.desktop-notifies{
+    height: 80px;
+    background-color: #8ddafc;
+}
+
+.chat-textbox{
+    height: 70px;
+    background-color: #f3eeea;
+}
 
 @media (max-width: 992px) {
 
