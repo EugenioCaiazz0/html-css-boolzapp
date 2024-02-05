@@ -125,7 +125,7 @@ button{
     align-items: center;
 }
 
-#mute-notifies{
+.mute-notifies{
     color: #8ddafc;
     background-color: white;
     height: 50px;
@@ -134,6 +134,7 @@ button{
     margin: auto;
     align-self: center;
     font-size: x-large;
+    line-height: 50px;
 }
 
 .pro-pic img{
@@ -141,11 +142,60 @@ button{
     width: 50px;
     border-radius: 50%;
     margin-left: 15px;
+    margin-right: 15px;
+}
+
+#chats{
+    background-color: #fafafa;
+}
+
+.searchbar{
+    height: 35px;
+    width: 95%;
+    color: #b1b1b1;
+    background-color: white;
+    border: 1px solid #b1b1b1;
+    margin: auto;
+}
+
+.searchbar i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type=text]{
+    height: 100%;
+    border: none;
+}
+
+#closed-chats{
+    font-size: x-small;
+    overflow: scroll;
+}
+
+.closed-chat{
+    height: 80px;
+    align-items: center;
+}
+
+.closed-chat h4{
+    margin-bottom: 5px;
+}
+
+.message-received-time{
+    color: #b1b1b1;
+    align-self: baseline;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .chat-textbox{
     height: 70px;
     background-color: #f3eeea;
+}
+
+.received-text{
+    color: #b1b1b1;
 }
 
 @media (max-width: 992px) {
