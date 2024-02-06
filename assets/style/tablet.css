@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+
+    #boolzapp-container{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #boolzapp-container .container:first-child .user-info nav{
+        display: none;
+    }
+
+    #boolzapp-container .container:last-child .user-info nav i{
+        font-size: medium;
+    }
+
+    
+    #boolzapp-container .container:first-child{
+        width: 80px;
+    }
+    
+    .desktop-notifies{
+        display: none;
+    }
+    
+    .searchbar{
+        display: none;
+    }
+    
+    #closed-chats h4{
+        display: none;
+    }
+    
+    #closed-chats p{
+        display: none;
+    }
+    }
