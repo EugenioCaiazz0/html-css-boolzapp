@@ -97,12 +97,13 @@ button{
 }
 
 #boolzapp-container .container:first-child{
-    width: 30%;
+    width: 380px;
     height: 100%;
+    flex-shrink: 0;
 }
 
 #boolzapp-container .container:last-child{
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
@@ -111,6 +112,7 @@ button{
 /*USER INFO*/
 .user-info{
     height: 70px;
+    flex-shrink: 0;
 }
 
 .user-info i{
@@ -123,6 +125,7 @@ button{
     height: 80px;
     background-color: #8ddafc;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .mute-notifies{
@@ -147,6 +150,8 @@ button{
 
 #chats{
     background-color: #fafafa;
+    overflow-y: scroll;
+    height: calc(100%-70px - 80px - 35px);
 }
 
 .searchbar{
@@ -156,6 +161,7 @@ button{
     background-color: white;
     border: 1px solid #b1b1b1;
     margin: auto;
+    flex-shrink: 0;
 }
 
 .searchbar i{
@@ -176,6 +182,7 @@ input[type=text]{
 .closed-chat{
     height: 80px;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .closed-chat h4{
@@ -205,3 +212,5 @@ input[type=text]{
 @media (max-width: 542px) {
 
 }
+
+/*<link rel="stylesheet" href="assets/css/tablet.css" media="screen and (max-width: 991px)">*/
