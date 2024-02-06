@@ -1,0 +1,24 @@
+@media (max-width: 541px) {
+
+    #boolzapp-container .container:first-child{
+        display: none;
+    }
+
+    #boolzapp-container .container:last-child nav {
+        display: none;
+    }
+
+    .chat-textbox .emojis{
+        display: none;
+    }
+
+
+    .chat-textbox .send-audio{
+        display: none;
+    }
+
+    .chat-textbox input[type=text]{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
