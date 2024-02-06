@@ -205,6 +205,58 @@ input[type=text]{
     color: #b1b1b1;
 }
 
+.chat-background{
+    height: 100%;
+    background-image: url("mine.jpg");
+}
+
+.text-message{
+    max-width: 35%;
+    flex-wrap: wrap;
+    margin: 25px;
+    border-radius: 25%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.text-message .message-received-time{
+    margin-top: 5px;
+}
+
+.sent{
+    background-color: #d6f9ba;
+    align-self: flex-end;
+}
+
+.received{
+    background-color: white;
+    align-self: flex-start;
+}
+
+.emojis{
+    width: 80px;
+    flex-shrink: 0;
+    color: #6b7376;
+}
+
+.emojis i{
+    font-size: x-large;
+    line-height: 80px;
+}
+
+.send-audio{
+    width: 80px;
+    flex-shrink: 0;
+    color: #6b7376;
+}
+
+.send-audio i{
+    font-size: x-large;
+    line-height: 80px;
+}
+
 @media (max-width: 992px) {
 
 }

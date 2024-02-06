@@ -234,8 +234,24 @@
 
             </div>
 
-            <div class="col d-flex  chat-textbox">
-                <input type="text" placeholder="chat textbox" name="" id="">
+            <div class="col d-flex flex-column chat-background debug">
+
+                <div class="text-message sent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi officiis voluptatibus, obcaecati deleniti omnis?</p>
+                    <div class="message-received-time">15:53</div>
+                </div>
+
+                <div class="text-message received">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, fugit?</p>
+                    <div class="message-received-time"> 14:17</div>
+                </div>
+                
+            </div>
+
+            <div class="col d-flex justify-between chat-textbox">
+                <div class="emojis d-flex centered align-items-center"><i class="fa-regular fa-face-smile"></i></div>
+                <input type="text" class="col d-flex" placeholder="chat textbox" name="" id="">
+                <div class="send-audio d-flex centered align-items-center"><i class="fa-solid fa-microphone"></i></div>
             </div>
         
         </div>
